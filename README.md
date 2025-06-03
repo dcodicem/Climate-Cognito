@@ -1,61 +1,34 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Project Title
+Climate Change Adaptation Strategy and Crop Recommendation System with RAG.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Project Description
 
-## About Laravel
+<h4>Problem:</h4> Climate change is increasingly threatening global food security, particularly in vulnerable regions, by impacting agricultural productivity and undermining the livelihoods of farmers. Rising temperatures, changing precipitation patterns, and increased frequency of extreme weather events are altering growing seasons, reducing crop yields, and affecting the quality of produce. This has severe consequences for food availability, access, and utilization, ultimately exacerbating malnutrition and hunger, especially among children. Children are disproportionately affected by climate-related shocks, which can lead to stunted growth, increased susceptibility to diseases, and reduced cognitive development.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h3>Solution Overview</h3>
+<h4>Our AI-powered solution is designed to:</h4>
+Provide actionable insights: Offer comprehensive answers to queries on climate change mitigation strategies, methodologies, and adaptation plans for various sectors.<br>
+Recommend climate-resilient crops: Suggest suitable crops for specific regions and climate conditions, backed by data-driven analysis and research.<br>
+Conduct vulnerability assessments: Analyze the economic, environmental, and social impacts of climate change on agriculture and provide recommendations for adaptation and resilience.<br>
+Develop adaptation plans: Create tailored plans for specific regions, crops, and sectors, incorporating local knowledge and scientific research.<br>
+<h3>Benefits</h3>
+<h4>Our solution aims to:</h4>
+Enhance farmer resilience: By providing data-driven crop recommendations and adaptation strategies, farmers can make informed decisions to reduce crop losses and improve productivity.<br>
+Inform policymaking: Our solution provides policymakers with actionable insights and recommendations to develop effective climate adaptation plans and policies.<br>
+Support sustainable agriculture: By promoting climate-resilient crops and sustainable practices, our solution contributes to a more environmentally friendly and sustainable agricultural sector.<br>
+<h3>Impact Metrics</h3>
+<h4>We aim to:</h4>
+Reduce crop losses: By 20% in 3 years through data-driven crop recommendations and adaptation strategies.<br>
+Increase farmer resilience: By 20% in 5 years through targeted support and resources.<br>
+Inform policy decisions: By providing actionable insights and recommendations to policymakers.<br>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# Implementation with ibm/granite-3-3-8b-instruct
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Our project leverages the strengths of Retrieval-Augmented Generation (RAG) to retrieve accurate and contextualized information from extensive data assets, including PDF files, to provide valuable insights into the complex challenges posed by climate change on agriculture and human well-being. By integrating RAG with the IBM watsonx.ai platform, we enable the development and testing of sophisticated AI models that can deliver concise and resourceful answers to complex queries.
+<h3>Key Features</h3>
+RAG-powered information retrieval: Our system utilizes RAG to retrieve relevant information from vast amounts of data, ensuring that our insights are grounded in a solid foundation of documented evidence.<br>
+IBM watsonx.ai prompt lab: We leveraged the IBM watsonx.ai prompt lab, utilizing the ibm/granite-3-3-8b-instruct model, to test and refine prompts, and develop a Laravel chat proof of concept. This enabled us to fine-tune our AI model's performance and deliver precise and relevant information to users.<br>
+<h4>Benefits</h4>
+<h3>By combining RAG and IBM watsonx.ai, our project delivers several key benefits, including:</h3>
+Improved accuracy: Our system provides accurate and reliable information, reducing the risk of misinformation and supporting informed decision-making.<br>
+Enhanced relevance: Our AI-driven insights are tailored to the specific needs of users, ensuring that they receive relevant and actionable information.
